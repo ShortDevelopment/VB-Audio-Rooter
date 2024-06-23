@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using ShortDev.DirectShow.VirtualDevices;
+﻿using ShortDev.DirectShow.VirtualDevices;
 
 Console.WriteLine("Hello, World!");
 

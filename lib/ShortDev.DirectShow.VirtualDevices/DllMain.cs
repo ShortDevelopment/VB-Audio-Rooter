@@ -3,7 +3,7 @@ using Windows.Win32.Foundation;
 
 namespace ShortDev.DirectShow.VirtualDevices;
 
-internal class DllMain
+internal static class DllMain
 {
     [UnmanagedCallersOnly(EntryPoint = nameof(DllCanUnloadNow))]
     public static HRESULT DllCanUnloadNow()
